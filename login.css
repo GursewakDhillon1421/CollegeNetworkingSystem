@@ -7,13 +7,18 @@ body{
     background-size: cover;
 }
 .container{
-   background-color: #353864;
+   /* background-color: #353864; */
+   background-color: rgb(156, 209, 255);
     padding: 30px;
     margin: 5px;
-    color: white;
+    /* color: white; */
+    color: black;
     position: absolute;
     top: 20%;
     left: 38%;
+    /* border: solid rgb(240, 13, 221) 2px; */
+    border: solid rgb(125, 125, 255) 2px;
+    border-radius: 10px;
 }
 .container h1{
     font-size: 40px;
