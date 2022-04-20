@@ -17,7 +17,7 @@
 
   <!-- home  -->
 
-
+<!-- SIDE NAV-BAR -->
 
   <div class="sidebar">
     <div class="logo-details">
@@ -31,60 +31,132 @@
         <span class="tooltip">Search</span>
       </li>
       <li>
-        <a href="#Home">
-          <i class='bx bx-grid-alt'></i>
+        <a href="#">
+          <i class='bx bx-grid-alt' onclick="open_home()"></i>
           <span class="links_name" onclick="open_home()">Home</span>
         </a>
-        <span class="tooltip" onclick="open_home()">Home </span>
+        <span class="tooltip">Home </span>
       </li>
       <li>
         <a href="#">
-          <i class='bx bx-user'></i>
-          <span class="links_name">Profile</span>
+          <i class='bx bx-user' onclick="open_profile()"></i>
+          <span class="links_name" onclick="open_profile()">Profile</span>
         </a>
         <span class="tooltip">Profile</span>
       </li>
       <li>
         <a href="#">
-          <i class='bx bx-chat'></i>
-          <span class="links_name">Messages</span>
+          <i class='bx bx-chat' onclick="open_message()"></i>
+          <span class="links_name" onclick="open_message()">Messages</span>
         </a>
         <span class="tooltip">Messages</span>
       </li>
       <li>
-        <a href="#Due dates">
-          <i class='bx bx-add-to-queue'></i>
-          <span class="links_name">Due Dates</span>
+        <a href="#">
+          <i class='bx bx-add-to-queue' onclick="open_due()"></i>
+          <span class="links_name" onclick="open_due()">Due Dates</span>
         </a>
         <span class="tooltip">Due Dates</span>
       </li>
       <li>
         <a href="#">
-          <i class='bx bx-folder'></i>
-          <span class="links_name">Announcements</span>
+          <i class='bx bx-folder' onclick="open_annoucement()"></i>
+          <span class="links_name" onclick="open_annoucement()">Announcements</span>
         </a>
         <span class="tooltip">Announcements</span>
       </li>
 
       <li>
         <a href="#">
-          <i class='bx bx-heart'></i>
-          <span class="links_name">Saved</span>
+          <i class='bx bx-heart' onclick="open_saved()"></i>
+          <span class="links_name" onclick="open_saved()">Saved</span>
         </a>
         <span class="tooltip">Saved</span>
       </li>
       <li>
-        <a href="#contactus">
-          <i class='bx bx-book-content'></i>
-          <span class="links_name">Contact us</span>
+        <a href="#">
+          <i class='bx bx-book-content' onclick="open_contact()"></i>
+          <span class="links_name" onclick="open_contact()">Contact us</span>
         </a>
         <span class="tooltip">Contact</span>
       </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-log-out' ></i>
+          <span class="links_name">Log out</span>
+        </a>
+        <span class="tooltip">Log out</span>
+      </li>
     </ul>
   </div>
+
+<!-- SIDE NAV-BAR ENDS -->
+
   <section class="home-section">
     <div class="text" id="Home">College Made Social!</div>
-    <div id="contactus">
+
+<!-- HOME -->
+
+<div id="Home2" class="home">
+<h1>home section</h1>
+
+</div>
+
+
+
+<!-- HOME ENDS -->
+
+<!-- Profile -->
+<div id="profile2" class="profile">
+<h1>Profile section</h1>
+</div>
+
+
+<!-- Profile Ends -->
+
+
+<!--Message -->
+
+<div id="message2" class="message">
+<h1>Message section</h1>
+</div>
+
+
+<!-- Messages Ends -->
+
+
+<!-- annoucement -->
+
+<div id="annoucement2" class="annoucement">
+<h1>annoucement section</h1>
+</div>
+
+
+<!-- annoucement Ends -->
+
+<!-- due-date -->
+
+<div id="due-date2" class="due-date">
+<h1>due-date section</h1>
+</div>
+
+
+<!-- due-date Ends -->
+
+<!-- saved -->
+
+<div id="saved2" class="saved">
+<h1>saved section</h1>
+</div>
+
+
+<!-- saved Ends -->
+
+    
+    
+    <!-- CONTACT US -->
+    
+    <div id="contactus2"  style="display: none;">
       <blockquote class="blockquote text-center">
         <p class=" p-3 border border-dark"
           style="background-color: #11101D; font-size: 35px; width: 100%; color: white"><b> CONTACT US</b></p>
@@ -105,6 +177,25 @@
             style="background-color: #E4E9F7; border: 2px solid #11101D;">
         </div>
         <br>
+        <!-- <div class="form-group" style="padding-left: 390px; color: #11101D">
+          <label for="exampleFormControlInput1"><b class= style="align-items: center;">Tell me your Experience</b></label>
+        </div>
+        <div class="text-center" style="margin-right: 20px;">
+      
+          <div class="form-check form-check-inline ml-2">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Not Satisfying</label>
+          </div>
+          <div class="form-check form-check-inline ml-2">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Average</label>
+          </div>
+          <div class="form-check form-check-inline ml-2">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+            <label class="form-check-label" for="inlineRadio3">Satisfied</label>
+          </div>
+        </div>
+        <br> -->
         <div class="form-group m-auto" style="width: 40%; color: #11101D">
           <label for="exampleFormControlTextarea1"><b> Please Enter Your Query Here</b></label>
           <textarea class="form-control" id="query" rows="8" placeholder="Type here...."
@@ -115,9 +206,14 @@
           <br>
   <button style="background-color: #11101D" class="btn btn-primary" name="send" id="send" type="submit">Send Message</button>
 </div>
+<br><br>
       </form>
-
     </div>
+    
+    <!-- CONTACT US END -->
+
+<!-- FOOTER -->
+
 
     <footer>
       <div class="text-center p-3" style="color: white; background-color: #11101D;">
@@ -132,6 +228,8 @@
   </section>
 
   </div>
+
+  <!-- FOOTER ENDS -->
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -204,6 +302,11 @@
 		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
 	}
 	// ]]>
-</script></body>
+</script>
+
+<script src="script.js"></script>
+
+
+</body>
 
 </html>

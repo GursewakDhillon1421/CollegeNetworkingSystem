@@ -237,3 +237,46 @@
     display: none;
   }
 }
+
+.home{
+  width: 97%;
+  display: block;
+  height: 100vh;
+  border: 2px solid black;
+  margin: 20px;
+}
+.profile{
+  width: 97%;
+  display: none;
+  height: 100vh;
+  border: 2px solid black;
+  margin: 20px;
+}
+.message{
+  width: 97%;
+  display: none;
+  height: 100vh;
+  border: 2px solid black;
+  margin: 20px;
+}
+.annoucement{
+  width: 97%;
+  display: none;
+  height: 100vh;
+  border: 2px solid black;
+  margin: 20px;
+}
+.saved{
+  width: 97%;
+  display: none;
+  height: 100vh;
+  border: 2px solid black;
+  margin: 20px;
+}
+.due-date{
+  width: 97%;
+  display: none;
+  height: 100vh;
+  border: 2px solid black;
+  margin: 20px;
+}
