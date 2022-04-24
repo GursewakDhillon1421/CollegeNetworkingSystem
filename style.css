@@ -1,4 +1,4 @@
-/* Google Font Link */
+/* Google Font Link #11101D*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -12,7 +12,7 @@
   top: 0;
   height: 100%;
   width: 78px;
-  background: #11101D;
+  background: rgb(236 239 63);
   padding: 6px 14px;
   z-index: 99;
   transition: all 0.5s ease;
@@ -31,9 +31,8 @@
   transition: all 0.5s ease;
 }
 .sidebar .logo-details .logo_name{
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
+  color: #11101D;
+  font-size: 30px;
   opacity: 0;
   transition: all 0.5s ease;
 }
@@ -46,7 +45,7 @@
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  font-size: 22px;
+  border-radius: 16px;
   transition: all 0.4s ease;
   font-size: 23px;
   text-align: center;
@@ -54,7 +53,7 @@
   transition: all 0.5s ease;
 }
 .sidebar.open .logo-details #btn{
-  text-align: right;
+  text-align: center;
 }
 .sidebar i{
   color: rgb(188, 192, 189);
@@ -280,3 +279,4 @@
   border: 2px solid black;
   margin: 20px;
 }
+
