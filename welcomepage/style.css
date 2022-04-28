@@ -12,7 +12,7 @@
   top: 0;
   height: 100%;
   width: 78px;
-  background: #180b8f;
+  background: #3e3d51;
   padding: 6px 14px;
   z-index: 99;
   transition: all 0.5s ease;
@@ -43,11 +43,13 @@
 .sidebar .logo-details #btn{
   position: absolute;
   top: 50%;
+  height: 53PX;
   right: 0;
   transform: translateY(-50%);
+  background-color: #11101D;
   border-radius: 16px;
   transition: all 0.4s ease;
-  font-size: 23px;
+  font-size: 28px;
   text-align: center;
   cursor: pointer;
   transition: all 0.5s ease;
@@ -278,5 +280,37 @@
   height: 100vh;
   border: 2px solid black;
   margin: 20px;
+}
+
+
+.profile-item #user-logo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px 0px 20px 150px;
+}
+.profile-item{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: inherit;
+  height: inherit;
+  z-index: -20px;
+
+}
+.profile-item span{
+  margin: 20px;
+  text-align: left;
+  color: #11101D;
+}
+
+.profile-ann{
+  position: relative;
+  width: 420px;
+  height: 580px;
+  background-color: #424050;
+  color: #E4E9F7;
+  left: 650px;
+  top:-600px;
 }
 
